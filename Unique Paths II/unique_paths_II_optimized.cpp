@@ -1,5 +1,6 @@
 // Problem: Unique Paths II
 // Approach: Space Optimized DP
+
 int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid)
 {
     int n = obstacleGrid.size();
@@ -27,5 +28,6 @@ int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid)
     }
     return prev[m - 1];
 }
+
 // Time Complexity: O(n * m)
 // Space Complexity: O(m)

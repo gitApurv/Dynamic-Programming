@@ -1,5 +1,6 @@
 // Problem: Unique Paths II
 // Approach: Recursion
+
 int f(int i, int j, vector<vector<int>> &obstacleGrid)
 {
     if (i < 0 || j < 0 || obstacleGrid[i][j] == 1)
@@ -17,5 +18,6 @@ int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid)
     int m = obstacleGrid.back().size();
     return f(n - 1, m - 1, obstacleGrid);
 }
+
 // Time Complexity: O(2^(n+m)) where n is the number of rows and m is the number of columns in the grid.
 // Space Complexity: O(n+m) for the recursion stack

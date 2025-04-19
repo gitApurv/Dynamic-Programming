@@ -1,5 +1,6 @@
 // Problem: Unique Paths II
 // Approach: Tabulation
+
 int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid)
 {
     int n = obstacleGrid.size();
@@ -23,5 +24,6 @@ int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid)
     }
     return dp[n - 1][m - 1];
 }
+
 // Time Complexity: O(n*m) where n is the number of rows and m is the number of columns in the obstacleGrid
 // Space Complexity: O(n*m)
