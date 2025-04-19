@@ -37,19 +37,3 @@ We welcome contributions of all kinds! Here’s how you can help:
 
 ---
 
-## 📌 Sample Problem Format
-
-```cpp
-/*
-🧠 Problem: Climbing Stairs (Leetcode 70)
-🔗 Link: https://leetcode.com/problems/climbing-stairs/
-
-Approach 1: Recursion (TLE)
-Approach 2: Memoization (Top Down)
-Approach 3: Tabulation (Bottom Up)
-Approach 4: Space Optimization
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/
-
