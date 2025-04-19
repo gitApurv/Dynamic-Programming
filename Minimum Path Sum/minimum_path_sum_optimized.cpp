@@ -1,5 +1,6 @@
 // Minimum Path Sum
 // Approach: Space Optimized Tabulation
+
 int minPathSum(vector<vector<int>> &grid)
 {
     int n = grid.size();
